@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "044f7ae30d601feab3d29e9660864839",
+    "revision": "6dff0de84f29d6411700dcfd5c5384bf",
     "url": "/StarWarsPlanets/index.html"
   },
   {
-    "revision": "8ca7dbcbb1585e07d3bc",
-    "url": "/StarWarsPlanets/static/css/main.2bf20a5d.chunk.css"
+    "revision": "b489e9685fe90f281ff9",
+    "url": "/StarWarsPlanets/static/css/main.0944d1c5.chunk.css"
   },
   {
     "revision": "90f26bcf6b4d8b7836cb",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/StarWarsPlanets/static/js/2.3c64fa54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8ca7dbcbb1585e07d3bc",
+    "revision": "b489e9685fe90f281ff9",
     "url": "/StarWarsPlanets/static/js/main.70dd1364.chunk.js"
   },
   {
