@@ -18,7 +18,7 @@ function SelectedFilters() {
   return (
     <div className="selectedFilters">
       {filterByNumericValues.map((filter) => (
-        <div data-testid="filter" key={ filter.column }>
+        <div className="filterContainer" data-testid="filter" key={ filter.column }>
           {`${filter.column} ${filter.comparison} ${filter.value}`}
           <button
             onClick={ (event) => removeFilter(event, filter) }

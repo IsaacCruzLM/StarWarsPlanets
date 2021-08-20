@@ -12,6 +12,7 @@ function FilterByName() {
     <div className="filterByName">
       <label htmlFor="name-filter">
         <input
+          className="textInput"
           data-testid="name-filter"
           id="name-filter"
           type="text"

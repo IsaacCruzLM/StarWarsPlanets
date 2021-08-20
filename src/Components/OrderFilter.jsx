@@ -34,10 +34,6 @@ function OrderFilter() {
           <option value="terrain">terrain</option>
           <option value="surface_water">surfaceWater</option>
           <option value="population">population</option>
-          <option value="films">films</option>
-          <option value="created">created</option>
-          <option value="edited">edited</option>
-          <option value="url">url</option>
         </select>
       </label>
       <label htmlFor="column-sort-input-asc">

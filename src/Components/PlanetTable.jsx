@@ -105,22 +105,18 @@ function PlanetTable() {
   };
 
   return (
-    <table>
+    <table className="planetsTable">
       <thead>
         <tr>
-          <th>name</th>
-          <th>rotationPeriod</th>
-          <th>orbitalPeriod</th>
-          <th>diameter</th>
-          <th>climate</th>
-          <th>gravity</th>
-          <th>terrain</th>
-          <th>surfaceWater</th>
-          <th>population</th>
-          <th>films</th>
-          <th>created</th>
-          <th>edited</th>
-          <th>url</th>
+          <th>Name</th>
+          <th>Rotation Period</th>
+          <th>Orbital Period</th>
+          <th>Diameter</th>
+          <th>Climate</th>
+          <th>Gravity</th>
+          <th>Terrain</th>
+          <th>Surface Water</th>
+          <th>Population</th>
         </tr>
       </thead>
       <tbody>

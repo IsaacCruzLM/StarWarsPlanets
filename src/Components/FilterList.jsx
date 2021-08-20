@@ -6,6 +6,7 @@ import OrderFilter from './OrderFilter';
 function FilterList() {
   return (
     <div className="filterList">
+      <p>Filters:</p>
       <FilterByName />
       <FilterByTag />
       <OrderFilter />

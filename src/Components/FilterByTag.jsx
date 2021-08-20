@@ -48,6 +48,7 @@ function FilterByTag() {
       </label>
       <label htmlFor="value-filter">
         <input
+          className="textInput numberInput"
           id="value-filter"
           data-testid="value-filter"
           type="number"

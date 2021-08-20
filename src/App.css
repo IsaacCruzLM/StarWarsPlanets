@@ -29,6 +29,112 @@
   color: #61dafb;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .gif img {
+  width: 150px;
+}
+
+header .filterList p {
+  font-weight: 700;
+  margin: 0;
+}
+
+header .filterList .textInput {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 0 0 5px;
+  outline: none;
+}
+
+header .filterList .numberInput {
+  width: 90px;
+}
+
+header .filterList .textInput:focus {
+  border: 0;
+  border-bottom: 2px solid red;
+}
+
+header .filterList select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 0 15px 5px 0;
+  outline: none;
+}
+
+header .filterList select:focus {
+  border: 0;
+  border-bottom: 2px solid red;
+}
+
+header .filterList button {
+  background-color: rgb(40, 57, 94);
+  border-radius: 5px;
+  color: azure;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.selectedFilters .filterContainer button {
+  background-color: brown;
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+header .filterList button:hover {
+  background-color: red;
+  filter: brightness(0.8);
+  transform: scale(1.1);
+}
+
+.selectedFilters {
+  display: flex;
+  padding: 10px 20px 20px;
+}
+
+.selectedFilters .filterContainer {
+  background-color: rgba(40, 57, 94, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+.selectedFilters .filterContainer:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.selectedFilters .filterContainer button:hover {
+  background-color: red;
+  filter: brightness(0.8);
+  transform: scale(1.1);
+}
+
+.planetsTable {
+  text-align: center;
+  width: 100%;
+}
+
+.planetsTable thead {
+  background-color: #282c34;
+  color: azure;
+}
+
+.planetsTable thead th {
+  padding: 5px 10px;
+}
+
+.planetsTable tbody td {
+  padding: 10px;
+}
+
 @keyframes App-logo-spin {
 
   from {

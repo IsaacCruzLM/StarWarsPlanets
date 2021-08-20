@@ -12,10 +12,6 @@ function PlanetLine({ planet }) {
     terrain,
     surface_water: surfaceWater,
     population,
-    films,
-    created,
-    edited,
-    url,
   } = planet;
 
   return (
@@ -29,10 +25,6 @@ function PlanetLine({ planet }) {
       <td>{terrain}</td>
       <td>{surfaceWater}</td>
       <td>{population}</td>
-      <td>{films}</td>
-      <td>{created}</td>
-      <td>{edited}</td>
-      <td>{url}</td>
     </tr>
   );
 }
@@ -48,10 +40,6 @@ PlanetLine.propTypes = {
     terrain: PropTypes.string,
     surface_water: PropTypes.string,
     population: PropTypes.string,
-    films: PropTypes.string,
-    created: PropTypes.string,
-    edited: PropTypes.string,
-    url: PropTypes.string,
   }).isRequired,
 };
 
