@@ -129,6 +129,7 @@ header .filterList button:hover {
 
 .planetsTable thead th {
   padding: 5px 10px;
+  height: 40px;
 }
 
 .planetsTable tbody td {
