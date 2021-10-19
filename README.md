@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto" src="./public/TriviaGame_1.jpeg" width="80%">
+  <img alt="Projeto" src="./public/image.png" width="80%">
 </p>
 
 ## 🚀 Tecnologias
